@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}"/>
+</head>
+<body>
+
+<h1>Register Page</h1>
+
+<form action="/reg" method='post'>
+   <b> <label for="uname">Username:</label> </b>
+   <input type="text" name="uname" placeholder="Username"> <br><br>
+   <b> <label for="email">Email:</label> </b>
+   <input type="email" name="email" placeholder="Email"><br><br>
+   <b> <label for="upass">Password:</label> </b>
+   <input type="password" name="upass" placeholder="Password"><br><br>
+   <button type="submit">Register</button>
+</form>
+
+</body>
+</html>

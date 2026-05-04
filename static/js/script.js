@@ -1,0 +1,1 @@
+console.log("Registration Page is Working")
